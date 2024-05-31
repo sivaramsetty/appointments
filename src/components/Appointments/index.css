@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.con {
+  background-image: linear-gradient(
+    to right,
+    #9897f0,
+    #b5b7c4,
+    #8b5cf6,
+    #fbc7d4
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.subCon {
+  background-color: white;
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px;
+}
+.imgInputCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.inputCon {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+}
+.btn {
+  margin-top: 20px;
+  background-color: #8b5cf6;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.hrCustom {
+  color: black;
+  height: 3px;
+  background-color: black;
+  width: 100%;
+}
+.appointmentCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
